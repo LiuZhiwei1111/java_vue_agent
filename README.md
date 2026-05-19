@@ -19,7 +19,7 @@
 
 7、语义检索器使用的是：shibing624/text2vec-base-chinese，无法访问该地址所以设置 HuggingFace 镜像，
 有魔法的可以使用魔法
-# 设置 HuggingFace 镜像
+设置 HuggingFace 镜像
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
 8、启动后端和前端服务之后访问http://localhost:3000/，即可根据自己的项目作为知识库，同时联网搜索答案
@@ -37,3 +37,7 @@ Web服务 - FastAPI 提供 /query 接口
 向量库/索引 - ChromaDB
 
 会话管理 - 支持多轮对话历史
+
+效果如下图：
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/f9a85399-4c3d-402f-93f5-994377ab50b5" />
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/56ad71ae-ebc0-4a42-a6e0-0d5971b66d91" />
